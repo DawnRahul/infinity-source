@@ -2,6 +2,7 @@
 body {
   background-color: white;
   margin: 0;
+  font-family: sans-serif;
 }
 
 img{
@@ -13,6 +14,8 @@ h2 {
   font-family: cursive;
   font-weight: 600;
   font-size: 28px;
+  margin: 0;
+  padding-top: 74px;
 }
 
 /* **************************** CLASS SELECTOR ************************** */
@@ -45,7 +48,6 @@ h2 {
   text-align: center;
   margin-top: 0;
   margin-bottom: 60px;
-  padding-top: 40px;
 }
 
 .container-2-container {
@@ -94,7 +96,6 @@ h2 {
 }
 .container-3 h2{
   text-align: center;
-  margin-top: 74px;
 }
 .container-3 p{
   font-size: 20px;
@@ -114,6 +115,15 @@ h2 {
   display: flex;
   flex-direction: row;
   height: 100%;
+}
+
+.container-4 {
+  height: auto;
+}
+
+.container-4 h2{
+  text-align: center;
+  padding-bottom: 24px;
 }
 
 .fa-envelope-open, .fa-mobile-alt {
@@ -206,6 +216,47 @@ h2 {
   padding-left: 30px;
   padding-right: 30px;
 }
+
+.service-benifits-container {
+  display: grid;
+  width: 100%;
+  height: 500px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 100%;
+  justify-items: center;
+  align-items: center;
+}
+
+.service-benifits {
+  height: 400px;
+  width: 92%;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+  padding-top: 0;
+
+}
+.service-benifits-card {
+  border: 2px solid rgba(0,0,0,0.32);
+  color: rgba(0,0,0,0.8);
+  text-shadow: 2px 2px 3px rgba(0,0,255,0.44);
+  font-size: 18px;
+  margin: 30px 40px;
+  padding: 12px 16px;
+  border-radius: 20px;
+}
+.service-benifits-img {
+
+  height: 500px;
+  width: 96%;
+  padding-top: 120px;
+}
+.service-benifits-img img{
+  width: 99%;
+  height: auto;
+}
+
+
 /* **************************** ID SELECTOR ************************** */
 #heading {
   color: white;
