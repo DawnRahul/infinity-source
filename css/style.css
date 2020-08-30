@@ -5,11 +5,7 @@ body {
   font-family: sans-serif;
 }
 
-img{
-  width: 700px;
-  height: auto;
 
-}
 h2 {
   font-family: cursive;
   font-weight: 600;
@@ -18,9 +14,105 @@ h2 {
   padding-top: 74px;
 }
 
+h5 {
+  text-align: center;
+}
+
+img{
+  width: 700px;
+  height: auto;
+
+}
+
+
+
 /* **************************** CLASS SELECTOR ************************** */
+.attribute-links {
+  display: none;
+}
+
 .attribute-free-resource {
   font-size: 12px;
+}
+
+.contact {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.contact-form {
+  border: 2px solid #cecece;
+  border-radius: 8px 8px 8px 8px;
+  -webkit-border-radius: 8px 8px 8px 8px;
+  -moz-border-radius: 8px 8px 8px 8px;
+  box-shadow: -10px 21px 26px 0px rgba(0,0,0,0.71);
+  -webkit-box-shadow: -10px 21px 26px 0px rgba(0,0,0,0.71);
+  -moz-box-shadow: -10px 21px 26px 0px rgba(0,0,0,0.71);
+  width: 560px;
+  height: auto;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: 20px;
+  margin-top: 12px;
+  margin-bottom: 38px;
+}
+
+.contact-form button {
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+  transition: background-color 0.7s;
+}
+
+.contact-form button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.contact-form-div {
+  margin-left: auto;
+  margin-right: 0px;
+}
+
+.contact-form h5 {
+  font-size: 28px;
+  margin-top: 20px;
+  margin-bottom: 24px;
+
+}
+
+.contact-form textarea {
+  resize: none;
+}
+
+.contact-links {
+  margin-top: 40px;
+
+}
+.contact-links a {
+  position: relative;
+  top: 0px;
+  transition: top 0.6s;
+}
+.contact-links a:hover {
+  top: 14px;
+  text-shadow: 2px 2px 6px;
+}
+.contact-links a{
+  text-decoration: none;
+  color: black;
+  font-size: 22px;
+  font-family: sans-serif;
+  font-weight: 600;
+  border: 2px solid black;
+  border-radius: 4px;
+  padding: 12px 16px;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.contact-links img{
+  height: 20px;
+  width:auto;
+  margin-right:6px;
 }
 
 .container {
@@ -117,8 +209,12 @@ h2 {
   height: 100%;
 }
 
-.container-4 {
+.container-4, .container-5 {
   height: auto;
+}
+
+.container-5 {
+  display: flex;
 }
 
 .container-4 h2{
@@ -137,6 +233,20 @@ h2 {
 
 .float-left {
   float: left;
+}
+
+.footer {
+  background-color: black;
+  width: 100%;
+  height: 60px;
+}
+
+.footer p {
+  color: white;
+  font-family: monospace;
+  font-size: 16px;
+  text-align: center;
+  padding-top: 10px;
 }
 
 .header-button-1 {
@@ -173,6 +283,22 @@ h2 {
 .header-buttons {
   margin-left: 380px;
   padding-bottom: 140px;
+}
+
+.input-email {
+width: 86%;
+width: -webkit-fill-available;
+}
+
+.input-field {
+  padding: 12px;
+  margin: 8px;
+  width: -webkit-fill-available;
+  font-size: 16px;
+  font-family: monospace;
+  color: Gray;
+  border-radius: 4px;
+  border: 1px solid black;
 }
 
 .nav-bar {
